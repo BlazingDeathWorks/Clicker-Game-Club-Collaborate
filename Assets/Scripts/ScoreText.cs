@@ -8,7 +8,7 @@ public class ScoreText : MonoBehaviour
     int counter = 1;
 
     // Increment the `counter` variable
-    void Count()
+    public void Count()
     {
         counter += 1;
     }
