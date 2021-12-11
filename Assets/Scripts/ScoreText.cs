@@ -4,15 +4,13 @@ using UnityEngine;
 using UnityEngine.UI;
 public class ScoreText : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
+    int counter = 1;
+
+    // Increment the `counter` variable
+    public void Count()
     {
-        
+        counter += 1;
     }
+    
 }
