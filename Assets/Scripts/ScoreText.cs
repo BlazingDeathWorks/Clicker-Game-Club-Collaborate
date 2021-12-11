@@ -4,6 +4,10 @@ using UnityEngine;
 using UnityEngine.UI;
 public class ScoreText : MonoBehaviour
 {
+    public clickButton() {
+        Debug.Log("e");
+    }
+
     // Start is called before the first frame update
     void Start()
     {
