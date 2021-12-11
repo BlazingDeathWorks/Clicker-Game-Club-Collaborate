@@ -2,21 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+
 public class ScoreText : MonoBehaviour
 {
-    public clickButton() {
-        Debug.Log("e");
-    }
+    int counter = 1;
 
-    // Start is called before the first frame update
-    void Start()
+    // Increment the `counter` variable
+    public void Count()
     {
-        
+        counter += 1;
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
 }
