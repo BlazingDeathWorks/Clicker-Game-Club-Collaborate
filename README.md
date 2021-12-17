@@ -11,7 +11,7 @@ Clicker Game with Club members
 Go to the Projects tab and you will be taken to the task board. You typically shouldn't touch anything in Unity besides your assigned task (for now).
 Create tasks in the **TO-DO** card. Drag it into the **IN PROGRESS** while you're working on it. Drag it into **DONE** and send a pull request when finished.
 ## TO-DO: Follow this template to make a card
-### [Name]:
+### [Contributor] [Title]:
 ### [Description]
 ### [Requirements]
 #### Fill in the description and requirements; the name will be filled out by whoever takes the job
