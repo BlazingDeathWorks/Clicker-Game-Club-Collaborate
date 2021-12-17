@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MainButton : MonoBehaviour
+public class IncrementMultiplier : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
