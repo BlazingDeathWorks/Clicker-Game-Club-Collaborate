@@ -22,4 +22,8 @@ public class ScoreManager : MonoBehaviour
     {
         incrementMultiplier += mult;
     }
+    public void DecreaseScore(int num) {
+        score -= num;
+    }
+
 }
