@@ -17,6 +17,6 @@ public class Timer : MonoBehaviour
     void Update()
     {
         timeLeft -= Time.deltaTime;
-        timerText.text = $"Time Left: {(int)Math.Round(timeLeft, 0)}";
+        timerText.text = $"Time Left: {(int)timeLeft}";
     }
 }
