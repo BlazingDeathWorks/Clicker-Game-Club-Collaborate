@@ -5,14 +5,21 @@ using UnityEngine.UI;
 
 public class ScoreManager : MonoBehaviour
 {
-    float counter = 0;
-    int currentScore = 0;
+    float score = 0;
+    int incrementAmount = 1;
+    float incrementMultiplier = 1;
 
     // Increment the `counter` variable
-    public void Count()
+    public void Increment()
     {
-        counter += 1;
-        currentScore = (int)counter;
+        score += incrementAmount * incrementMultiplier;
     }
-    
+    public void IncreaseIA(int num)
+    {
+        incrementAmount += num;
+    }
+    public void IncreaseIM(float mult)
+    {
+        incrementMultiplier += mult;
+    }
 }
