@@ -7,8 +7,8 @@ public class ScoreManager : MonoBehaviour
 {
     [SerializeField] Text scoreText;
     float score = 0;
-    int incrementAmount = 1;
-    float incrementMultiplier = 1;
+    [SerializeField] int incrementAmount = 1;
+    [SerializeField] float incrementMultiplier = 1;
 
     private void Awake()
     {
