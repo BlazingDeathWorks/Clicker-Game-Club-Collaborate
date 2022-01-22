@@ -5,14 +5,33 @@ using UnityEngine.UI;
 
 public class ScoreManager : MonoBehaviour
 {
-    float counter = 0;
-    int currentScore = 0;
+    [SerializeField] Text scoreText;
+    float score = 0;
+    int incrementAmount = 1;
+    float incrementMultiplier = 1;
+
+    private void Awake()
+    {
+        scoreText.text = ((int)score).ToString();
+    }
 
     // Increment the `counter` variable
-    public void Count()
+    public void Increment()
     {
-        counter += 1;
-        currentScore = (int)counter;
+        score += incrementAmount * incrementMultiplier;
+        scoreText.text = ((int)score).ToString();
     }
-    
+    public void IncreaseIA(int num)
+    {
+        incrementAmount += num;
+    }
+    public void IncreaseIM(float mult)
+    {
+        incrementMultiplier += mult;
+    }
+    public void DecreaseScore(int num)
+    {
+        score -= num;
+    }
+
 }
