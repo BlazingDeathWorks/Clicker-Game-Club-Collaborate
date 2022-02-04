@@ -5,13 +5,13 @@ using UnityEngine.UI;
 
 public class Timer : MonoBehaviour
 {
-    [SerializeField] Text timerText;
-    float timeLeft = 60;
+    [SerializeField] Text _timerText;
+    float _timeLeft = 60;
 
     // Update is called once per frame
     void Update()
     {
-        timeLeft -= Time.deltaTime;
-        timerText.text = $"Time Left: {(int)timeLeft}";
+        _timeLeft -= Time.deltaTime;
+        _timerText.text = $"Time Left: {(int)_timeLeft}";
     }
 }
