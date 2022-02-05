@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class Timer : MonoBehaviour
 {
     [SerializeField] Text _timerText;
-    [SerializeField] ScoreManager _scoreManager = 0;
+    [SerializeField] ScoreManager _scoreManager = null;
     float _timeLeft = 60;
 
     void Validate()
