@@ -285,7 +285,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &120522955
+      m_Calls: []
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -323,7 +323,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 120522952}
   m_CullTransparentMesh: 1
---- !u!114 &120522957
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -335,7 +334,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc89038af9fcd7b4498b06b7344f19a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &354460389
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
