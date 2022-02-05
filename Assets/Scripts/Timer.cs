@@ -14,6 +14,7 @@ public class Timer : MonoBehaviour
         if (_timeLeft <= 0) 
         {
             _timeLeft = 60;
+            _scoreManager.ResetScore();
         }
     }
 

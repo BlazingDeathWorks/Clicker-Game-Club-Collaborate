@@ -1344,7 +1344,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 128e5c398b82cc24abc79dbc780c8200, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _timerText: {fileID: 0}
+  _timerText: {fileID: 1259488174}
+  _scoreManager: {fileID: 2127869800}
 --- !u!4 &2126149085
 Transform:
   m_ObjectHideFlags: 0
@@ -1388,7 +1389,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5da35f95d92cd674e9981a5292d62094, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _scoreText: {fileID: 0}
+  _scoreText: {fileID: 1584147440}
   _incrementAmount: 1
   _incrementMultiplier: 1
 --- !u!4 &2127869801

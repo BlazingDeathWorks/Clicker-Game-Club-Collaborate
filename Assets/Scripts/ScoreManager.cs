@@ -12,6 +12,11 @@ public class ScoreManager : MonoBehaviour
 
     private void Awake()
     {
+        UpdateScore();
+    }
+
+    private void UpdateScore()
+    {
         _scoreText.text = ((int)_score).ToString();
     }
 
@@ -19,19 +24,29 @@ public class ScoreManager : MonoBehaviour
     public void Increment()
     {
         _score += _incrementAmount * _incrementMultiplier;
-        _scoreText.text = ((int)_score).ToString();
+        UpdateScore();
     }
+
     public void IncreaseIA(int num)
     {
         _incrementAmount += num;
     }
+
     public void IncreaseIM(float mult)
     {
         _incrementMultiplier += mult;
     }
+
     public void DecreaseScore(int num)
     {
         _score -= num;
+        UpdateScore();
+    }
+
+    public void ResetScore()
+    {
+        _score = 0;
+        _scoreText.text = ((int)_score).ToString();
     }
 
 }
