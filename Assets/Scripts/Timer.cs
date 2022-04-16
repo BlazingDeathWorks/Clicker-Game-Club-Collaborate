@@ -11,7 +11,7 @@ public class Timer : MonoBehaviour
 
     void Validate()
     {
-        if (_timeLeft <= 0) 
+        if (_timeLeft <= 0)
         {
             _timeLeft = 60;
             _scoreManager.ResetScore();
